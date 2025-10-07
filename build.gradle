@@ -4,7 +4,8 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.1.0'
+        // 使用与 Gradle 8.0 兼容的版本
+        classpath 'com.android.tools.build:gradle:8.0.2'
     }
 }
 
